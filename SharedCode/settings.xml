@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<isMasterServer>1</isMasterServer>
+	<servers>
+		<server>
+			<name>MASTER</name>
+			<ip>10.0.0.100</ip>
+		</server>
+		<server>
+			<name>BACKUP</name>
+			<ip>10.0.0.200</ip>
+		</server>
+	</servers>
+	<game>
+		<totalTime>60</totalTime>
+		<totalPlayers>2</totalPlayers>
+		<dizzyTrailSamples>100</dizzyTrailSamples>
+		<dizzyTrailTime>10</dizzyTrailTime>
+		<gyroscopeMultiplier>0.999999821</gyroscopeMultiplier>
+		<windowOpenTime>3</windowOpenTime>
+		<isScramble>0</isScramble>
+		<bottleDropSpeed>15.1000004</bottleDropSpeed>
+		<boundingBox x1="430" y1="60" x2="1830" y2="1018"/>
+		<bottleDropSpeed>15.1</bottleDropSpeed>
+	</game>
+	<outro>
+		<totalTime>6</totalTime>
+	</outro>
+	<video>
+		<offset x="77.4199982" y="57.6199989"/>
+		<scaleX>0.911000013</scaleX>
+		<scaleY>0.912999988</scaleY>
+		<alpha>0</alpha>
+		<speed>1</speed>
+	</video>
+	<mesh>
+		<offset x="0" y="0"/>
+		<scaleX>0.774500012</scaleX>
+		<scaleY>0.774500012</scaleY>
+	</mesh>
+	<scorePanel1>
+		<offset x="691.52002" y="120"/>
+		<scale>1</scale>
+	</scorePanel1>
+	<scorePanel2>
+		<offset x="1400" y="120"/>
+		<scale>1</scale>
+	</scorePanel2>
+	<scorePanelOutro>
+		<offset x="1280" y="600"/>
+		<scale>1.56399882</scale>
+	</scorePanelOutro>
+	<color>
+		<brightness>0</brightness>
+		<saturation>0.99999994</saturation>
+		<contrast>1</contrast>
+	</color>
+</settings>
+

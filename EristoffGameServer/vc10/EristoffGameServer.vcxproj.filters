@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\EristoffGameServerApp.cpp" />
+    <ClCompile Include="..\..\..\..\blocks\osc\src\OscBundle.cpp">
+      <Filter>Blocks\osc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\blocks\osc\src\OscListener.cpp">
+      <Filter>Blocks\osc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\blocks\osc\src\OscMessage.cpp">
+      <Filter>Blocks\osc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\blocks\osc\src\OscSender.cpp">
+      <Filter>Blocks\osc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\Player.cpp">
+      <Filter>VO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NetworkController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\uiSprite.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\uiSpriteRender.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\window.cpp">
+      <Filter>UIElements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SettingManager.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h" />
+    <ClInclude Include="..\..\..\..\blocks\osc\include\OscArg.h">
+      <Filter>Blocks\osc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\blocks\osc\include\OscBundle.h">
+      <Filter>Blocks\osc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\blocks\osc\include\OscListener.h">
+      <Filter>Blocks\osc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\blocks\osc\include\OscMessage.h">
+      <Filter>Blocks\osc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\blocks\osc\include\OscSender.h">
+      <Filter>Blocks\osc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\Player.h">
+      <Filter>VO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NetworkController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\AppConstants.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\uiSprite.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\uiSpriteRender.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\window.h">
+      <Filter>UIElements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SettingManager.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{45e7567b-ff7d-457c-a9e6-f09717627003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\osc">
+      <UniqueIdentifier>{a0ccc9d7-f38a-440d-9a37-8c3687f0b88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\osc\include">
+      <UniqueIdentifier>{78bd7d27-43af-42f0-bdd0-fd264dac20bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\osc\src">
+      <UniqueIdentifier>{69999c5f-7fd4-4c14-8b85-91640c45455e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VO">
+      <UniqueIdentifier>{8fe677d5-5b8e-429e-956e-725338a2aafe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{00e2e15c-b69d-462d-a200-a8b272eefdfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{0f1caafc-7d7a-41cf-97b6-5486ddbfdbcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIElements">
+      <UniqueIdentifier>{d4863adc-e417-430b-8d80-de129b2e48ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
